@@ -309,7 +309,7 @@ class NuPICPlotOutput(NuPICOutput):
     plt.draw()
 
   def refreshGUI(self):
-      plt.pause(0.0001)
+    plt.pause(0.0001)
 
   def close(self):
     plt.ioff()
